@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0"> 
+    <meta name="description" content="Bigjara HTML is a complete guide on HTML">
+    <meta name="keywords" content="HTML , Web pages  , markup , HTML5 , elements , tags , attributes">
+    <title> Ojieh Wisdom Assignment</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>
+                <a href="index.html">Bigjara</a>
+                
+            </h1>
+        </section>
+        <section>
+            <nav>
+                <a href="form.html">Form</a>
+                <a href="index.html">Home</a>
+                <a href="table.html">Table</a>
+            </nav>
+        </section>
+    </header>
+<body>
+    <h1>Creating a form</h1>
+    <p>Fill the form below with the right information</p>
+    <form method="post" action="/signup" enctype="multipart/form-data">
+        <label for="username">Username</label>
+        <input type="text" placeholder="Enter your name" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" name="username" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <label for="date of birth">Date of Birth</label>
+        <input type="date" class="input input-border-faint" id="dob">
+        <label for="country of residence">Residence</label>
+        <select name="country of residence">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Ghana">Ghana</option>
+        </select>
+        <label for="bio">Bio</label>
+        <textarea name="bio" class="input input-border-faint">Default text</textarea>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <!--Working with checkboxs-->
+        <label for="color">Favoright Color</label>
+        <input type="checkbox" name="color" value="Red">
+        <span>Red</span>
+        <input type="checkbox" name="color" value="Blue">
+        <span>Blue</span>
+        <input type="checkbox" name="color" value="Orange">
+        <span>Orange</span>
+        <label for="profile">Profile Picture</label>
+        <input type="file" name="profile">
+        <input type="submit">
+    </form>
+</body>
+</html>
